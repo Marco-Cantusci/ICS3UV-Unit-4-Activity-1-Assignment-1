@@ -34,7 +34,7 @@ func main() {
 	for markAmount := 0; markAmount < int(marksNumber); markAmount++ {
 		var gradeString string
 		var gradeNumber float64
-		fmt.Print("Enter mark ", markAmount + 1, ":")
+		fmt.Printf("Enter mark %d", markAmount + 1)
 		gradeString, _ = reader.ReadString('\n')
 		gradeString = strings.TrimSpace(gradeString)
 		gradeNumber, _ = strconv.ParseFloat(gradeString, 64)
