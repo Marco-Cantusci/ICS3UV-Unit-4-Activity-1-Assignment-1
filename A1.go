@@ -43,7 +43,7 @@ func main() {
 
 	// average calculation
 	var average float64 = total / marksNumber
-	fmt.Printf("\nAverage mark: %.2f\n", average )
+	fmt.Printf("\nAverage mark: %.2f\n", average)
 
 	// statements
 	if average <= 49 {
